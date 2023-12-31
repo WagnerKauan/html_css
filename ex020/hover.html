@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>pseudo-class HOVER </h1>
+
+    <div>
+        passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+</body>
+</html>
