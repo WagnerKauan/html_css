@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+
+        div#conteiner{  
+            margin: auto;
+            height: 300px;
+            width: 50vw;
+            background-color: lightblue;
+            padding: 20px;
+            position: absolute;
+        }
+
+        div#conteiner > iframe{
+            position: relative;
+            top: 15%;
+            left: 30%;
+            width: 40%;
+            height: 70%;
+        }
+    </style>
+</head>
+<body>
+    <h1>conteúdos dentro de iframes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatum libero dolorum maiores officiis perspiciatis quod, cumque qui vel numquam aliquam officia esse labore quo? Praesentium quidem alias inventore sunt!</p>
+
+    <h2>Vídeo</h2>
+    <div id="conteiner"><iframe width="560" height="315" src="https://www.youtube.com/embed/XnvqUTLuHyM?si=AA_lBB7byK_mHzFv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+</body>
+</html>
