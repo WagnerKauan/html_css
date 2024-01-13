@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/*Esilos para tela em pé portrait*/
+body{
+    background-image: url('../imagens/image/cev-portrait.jpg');
+    background-position: center bottom;
+}
